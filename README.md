@@ -21,3 +21,4 @@
 
 ## 📸 Скриншоты
 ![Скриншот игры](img/screendogcat.png)
+![Скриншот игры](img/pagescreenshot.png)
