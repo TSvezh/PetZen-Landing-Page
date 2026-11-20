@@ -1,0 +1,92 @@
+.login-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 40px 24px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    }
+
+.login-bg-shape {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background-color: var(--yellow, #FFC107);
+    opacity: 0.2;
+    border-radius: 50%;
+    z-index: 0;
+    }
+
+.login-bg-shape-2 {
+    position: absolute;
+    top: 40px;
+    left: -80px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--yellow, #FFC107);
+    opacity: 0.15;
+    border-radius: 50%;
+    z-index: 0;
+    } 
+    
+.login-content {
+    position: relative;
+    z-index: 1;
+    }
+
+.login-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--dark, #1F1F1F);
+    margin-bottom: 8px;
+    text-align: center;
+    }
+
+.login-subtitle {
+    font-size: 14px;
+    color: var(--gray, #6B6B6B);
+    text-align: left;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+   
+.login-illustration {
+    width: 100%;
+    object-fit: cover;
+    max-width: 300px;
+    margin: 0 auto 30px;
+    display: block;
+    }
+      
+.login-logo {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    }
+        
+.login-logo .logo__pet { 
+    color: var(--dark, #1F1F1F); 
+    }
+
+.login-logo .logo__zen { 
+    color: var(--yellow, #FFC107); 
+    }
+
+
+.login-description {
+    font-size: 14px;
+    color: var(--gray, #6B6B6B);
+    line-height: 1.6;
+    margin-bottom: 32px;
+    padding: 0 10px;
+    }
+
+    
+@media (max-width: 480px) {
+.login-container {
+    padding: 30px 20px;
+    border-radius: 24px;
+    }
+    }

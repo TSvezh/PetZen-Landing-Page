@@ -1,0 +1,144 @@
+
+.login-logo {
+    text-align: center;
+}
+
+
+/* Форма */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+     max-width: 320px; /* Задай нужную ширину */
+    margin: 0 auto;   /* Центрируем по горизонтали */
+    width: 100%;   
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark, #1F1F1F);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px; /* Скругление как на макете */
+    font-size: 14px;
+    font-family: inherit;
+    color: var(--dark, #1F1F1F);
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-group input::placeholder {
+    color: #A0A0A0;
+}
+
+.form-group input:focus {
+    border-color: var(--yellow, #FFC107);
+}
+
+.form-options {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4px;
+    margin-bottom: 8px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: var(--gray, #6B6B6B);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.forgot-password:hover {
+    color: var(--dark, #1F1F1F);
+}
+
+.login-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 24px 0;
+    color: var(--gray, #6B6B6B);
+    font-size: 13px;
+}
+
+.login-divider::before,
+.login-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.login-divider span {
+    padding: 0 12px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.social-btn {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.social-btn:hover {
+    background-color: #F8F8F8;
+    transform: translateY(-2px);
+}
+
+.social-btn img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.register-link {
+    text-align: center;
+    font-size: 13px;
+    color: var(--gray, #6B6B6B);
+    margin: 0;
+}
+
+.register-link a {
+    color: var(--dark, #1F1F1F);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .login-container {
+        padding: 24px 16px;
+        border-radius: 20px;
+    }
+    .login-logo {
+        font-size: 32px;
+    }
+}
