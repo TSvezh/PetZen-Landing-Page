@@ -19,5 +19,4 @@
 Макет взят из открытого сообщества Figma (автор: danycodes).
 [Ссылка на оригинальный макет в Figma](https://www.figma.com/files/team/961321473631029762/resources/community/file/1333739760381547963?q_id=9d12d6c1-1a98-4758-9ce4-53cf891e613d)
 
-[Ссылка на макет](https://www.figma.com/files/team/961321473631029762/resources/community/file/1333739760381547963?q_id=9d12d6c1-1a98-4758-9ce4-53cf891e613d)
 ## 📸 Скриншоты
